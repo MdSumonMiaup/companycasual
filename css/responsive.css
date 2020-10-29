@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1040px) {
+	
+}
+
+@media only screen and (max-width: 992px) {
+	.style-x {
+		width: 700px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.style-x {
+		width: 100%;
+		padding: 0 10%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.header-title {
+		background: #007DC3;
+	}
+	.header-title h1 {
+		color: #fff;
+		margin-bottom: 0;
+		font-size: 60px;
+		padding-bottom: 10px;
+		margin-top: 0;
+		padding-top: 15px;
+	}
+	.search-product {
+		float: none;
+		margin-left: -6px;
+	}
+	.search-product input {
+		width: 100%;
+	}
+	.search-product i {
+		top: -1px;
+	}
+	.mega-manu-nav {
+		display: none;
+	}
+	.mobile-mega-manu-nav {
+		display: block;
+		background: #007DC3;
+		margin: 0 -6%;
+		padding: 0 6%;
+	}
+	.mega-manu-nav {
+		width: 100%;
+		float: none;
+		margin-top: 0;
+	}
+	.submenu-content {
+		padding: 0;
+	}
+	.list-filter {
+		padding: 10px 0 !important;
+		border-bottom: 1px solid #ddd;
+		padding-bottom: 10px !important;
+		font-weight: 600;
+		color: #007DC3 !important;
+	}
+	.single-manu {
+		padding: 10px;
+	}
+	.footer ul li {
+		display: block;
+	}
+	.footer ul {
+		padding: 10px 0;
+	}
+	.footer ul li a {
+		padding: 3px 0;
+	}
+	.footer i {
+		display: inline-block;
+	}
+	.header-title p {
+		display: none;
+	}
+
+	.collapsible::after {
+		content: '\002B';
+		font-weight: bold;
+		float: left;
+		margin-right: 5px;
+		margin-left: 10px;
+	}
+
+	/* Icon when the collapsible content is shown */
+	.browse-product::before {
+		content: '\2212';
+		font-weight: 900;
+		font-family: "Font Awesome 5 Free";
+		margin-right: 5px;
+	}
+	.browse-brand::before {
+		content: '\002B';
+		font-weight: 900;
+		font-family: "Font Awesome 5 Free";
+		margin-right: 5px;
+	}
+	.show-brand:before {
+	  content: "\2212";
+	}
+	  /* Icon when the collapsible content is hidden */
+	  .collapsed:before {
+	    content: '\002B';
+		font-weight: 900;
+		font-family: "Font Awesome 5 Free";
+	  }
+
+
+
+	.mobile-mega-manu-nav ul li a::before {
+		content: '\f105';
+		font-weight: 900;
+		font-family: "Font Awesome 5 Free";
+		margin-left: 10px;
+		margin-right: 5px;
+
+	}
+	.active:after {
+	  content: "\2212";
+	}
+
+
+}
+
+
+
+@media only screen and (max-width: 576px) {
+	.style-x {
+		padding: 0 5%;
+	}
+	.header-title h1 {
+		font-size: 40px;
+	}
+}
+
+
+
+@media only screen and (max-width: 400px) {
+	
+}
+
+@media only screen and (width: 800px) {
+	
+}
